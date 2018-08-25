@@ -119,7 +119,7 @@ To make reading the below example easier, there is a new line between each hour 
 1|ATAYJP|25.71
 1|HVIWZR|22.80
 1|SLKWVA|94.49
-1|CMWTQH|116.08
+1|CMWTQH|81.22
 
 2|ATAYJP|29.92
 2|HVIWZR|22.06
