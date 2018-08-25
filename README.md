@@ -221,7 +221,7 @@ The directory structure for your repo should look like this:
 ├── output
 │   └── comparison.txt
 └── insight_testsuite
-    ├── runtest.sh
+    ├── run_tests.sh
     └── tests
         ├── test_1
         │   ├── input
