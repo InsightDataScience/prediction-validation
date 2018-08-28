@@ -81,7 +81,7 @@ You must create an output file named `comparison.txt` where each line has the fo
 
 1. Starting hour time window
 1. Ending hour time window
-1. `average error` rounded off to 2 decimal places (e.g., 2.1 should be written as 2.10; 2.1049 should be 2.10 and 2.1050 should be 2.11)
+1. `average error` rounded off to 2 decimal places. Given rounding issues some applicants have run into, we're going to accept values that are +/- 0.01 of the expected value. For example, if the expected value is 0.17, we will accept 0.16, 0.17, or 0.18 as the correct answer.
 
 The output file also has no headers and the lines should be listed in chronological order.
 
@@ -282,6 +282,9 @@ For a limited time we also are making available a <a href="http://ec2-18-210-131
 # FAQs
 
 Here are some common questions we've received. If you have additional questions, please email us at `cc@insightdataengineering.com` and we'll answer your questions as quickly as we can (during PST business hours), and update this FAQ. Again, only contact us after you have read through the Readme and FAQ one more time and cannot find the answer to your question.
+
+### What should I do when I encounter rounding off errors on comparingmy results with the testcase provided?
+Given rounding issues some applicants have run into, we're going to accept values that are +/- 0.01 of the expected value. For example, if the expected value is 0.17, we will accept 0.16, 0.17, or 0.18 as the correct answer. 
 
 ### What if I am not able to find a match between actual and predicted values in a time window?
 When you are not able to find a match between stock and price for a given window, please output to be "NA" for `average error`. For instance, if we do not have a match between actual and predicted stock values for the window between hours `3 and 5`, you should output the following.
